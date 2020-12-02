@@ -2,7 +2,8 @@
 class homeController {
 
     public function index(){
-        echo 'Olá mundo!';
+        
+        echo 'Olá mundo novo!';
         
     }
  }
