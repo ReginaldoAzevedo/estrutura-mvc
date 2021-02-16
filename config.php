@@ -7,13 +7,13 @@ if(ENVIRONMENT == 'development') {
     $config['dbname'] = 'estrutura_mvc';
     $config['host'] = 'localhost';
     $config['dbuser'] = 'root';
-    $config['dbpass'] = '';
+    $config['dbpass'] = '12345';
 } else {
     define("BASE_URL", "https://meusite.com.br/");
     $config['dbname'] = 'estrutura_mvc';
     $config['host'] = 'localhost';
     $config['dbuser'] = 'root';
-    $config['dbpass'] = '';
+    $config['dbpass'] = '12345';
 
 }
 global $db;
